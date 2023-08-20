@@ -3,6 +3,7 @@
 import java.awt.event.*;
 import javax.swing.*;
 import java.sql.*;
+import java.awt.*;
 
 public class PersonalDataUpdate extends JFrame implements ActionListener {
     JFrame f=new JFrame("Student_Database_personal_UPDATE");
@@ -11,9 +12,14 @@ public class PersonalDataUpdate extends JFrame implements ActionListener {
     JButton b1=new JButton("Update");
     JTextField t1=new JTextField();
 	JTextField t2=new JTextField();
-PersonalDataUpdate(){
-    l1.setBounds(50,90,100,20);
-    l2.setBounds(50,120,100,20);
+public PersonalDataUpdate(){
+    l1.setForeground(new Color(25, 25, 112));
+        l1.setFont(new Font("Tahoma", Font.BOLD, 20));
+        l1.setBounds(50, 90, 200, 20);
+        l2.setForeground(new Color(25, 25, 112));
+        l2.setFont(new Font("Tahoma", Font.BOLD, 20));
+        l2.setBounds(50, 120, 200, 20);
+      
     b1.setBounds(50,180,200,30);
     t1.setBounds(200,90,100,20);
 		t2.setBounds(200,120,100,20);

@@ -34,7 +34,7 @@ public class marksinsert extends JFrame implements ActionListener{
   JButton b3=new JButton("INSERT");
   
 
-marksinsert(){
+public marksinsert(){
     l1.setBounds(50,100,100,20);
 l2.setBounds(50,120,100,20);
 l3.setBounds(50,140,100,20);

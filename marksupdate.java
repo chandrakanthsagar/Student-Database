@@ -1,10 +1,8 @@
-import javax.swing.JFrame;
 import javax.swing.*;
 import java.sql.*;
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.lang.String;
 import java.awt.event.*; 
+import java.awt.*;
 public class marksupdate extends JFrame implements ActionListener
 {
 	JFrame f=new JFrame("STUDENT PERSONAL INFO");
@@ -18,11 +16,17 @@ public class marksupdate extends JFrame implements ActionListener
 	
 	
 	JButton b1=new JButton("UPDATE");
-	marksupdate()
+	public marksupdate()
 	{
-		l0.setBounds(50,60,100,20);
-		l1.setBounds(50,90,100,20);
-		l2.setBounds(50,120,100,20);
+	 l1.setForeground(new Color(25, 25, 112));
+    l1.setFont(new Font("Tahoma", Font.BOLD, 20));
+    l1.setBounds(50, 90, 200, 20);
+	l0.setForeground(new Color(25, 25, 112));
+	l0.setFont(new Font("Tahoma", Font.BOLD, 20));
+	l0.setBounds(50, 60, 200, 20);
+	l2.setForeground(new Color(25, 25, 112));
+	l2.setFont(new Font("Tahoma", Font.BOLD, 20));
+	l2.setBounds(50, 120, 200, 20);
 		
 		
 		t0.setBounds(200,60,100,20);

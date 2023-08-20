@@ -20,7 +20,7 @@ public class databaseacess extends JFrame implements ActionListener{
      JTextField t1=new JTextField();
 	 JTextArea ta=new JTextArea();
     
-    databaseacess(){
+    public databaseacess(){
         l1.setBounds(50,100,100,30);
         t1.setBounds(200, 100, 150, 30);
         
